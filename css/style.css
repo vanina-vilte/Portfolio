@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #616161;
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+/***************** EMPIEZA MI HEADER *****************/
+header{
+    background-color: white;
+    width: 100%;
+    padding: 35px 0px;
+    box-shadow: 0px 0px 25px 0px rgb(134 134 134 / 25%);
+    position: absolute;
+    z-index: 1;
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav{
+    width: 100%;
+    justify-content: center;
+    padding-left: 500px;
+}
+
+li{
+    display: inline;
+}
+.naveg{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px;
+    color: #616161;
+}
+
+.contacto{
+    color: white;
+    background-color: #81B214;
+    padding: 9px 25px;
+    border-radius: 3rem;
+}
+
+.naveg:hover{
+    color: #81B214;
+}
+
+.contacto:hover{
+    background-color: #acd650;
+    color: #616161;
+}
+
+/***************** TERMINA MI HEADER *****************/
+/***************** EMPIEZA HOLA *****************/
+#presentacion{
+    width: 80%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#caja1, #caja2{
+    width: 600px;
+    margin: 50px 0px;
+}
+
+#caja1{
+    text-align: left;
+}
+
+.hola{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 7px;
+    font-weight: 800;
+}
+
+.nombre{
+    font-size: 60px;
+    margin-bottom: 7px;
+    font-weight: 900;
+    color: #81B214;
+}
+
+.soy{
+    font-size: 16px;
+    margin-bottom: 40px;
+    word-spacing: 3px;
+}
+
+/***************** TERMINA HOLA *****************/
+.conocimientos{
+    background-color: aquamarine;
+}
+
+.frase{
+    background-color: burlywood;
+}
+
+.proyectos{
+    background-color: coral;
+}
+
+.contactame{
+    background-color: darkgray;
+}
+
+footer{
+    background-color: darksalmon;
+}
