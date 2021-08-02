@@ -105,9 +105,30 @@ li{
 }
 
 /***************** TERMINA HOLA *****************/
-.conocimientos{
-    background-color: aquamarine;
+/***************** EMPIEZA MIS CONOCIMIENTOS *****************/
+.loquese{
+    width: 100%;
+    background-color: #E9F1D5;
 }
+
+#conocimientos{
+    width: 80%;
+    margin: 0px auto;
+    padding: 9em 0em;
+}
+
+.skills{
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+}
+
+.skills2{
+    width: 650px;
+    margin: 35px auto;
+}
+
+/***************** TERMINA MIS CONOCIMIENTOS *****************/
 
 .frase{
     background-color: burlywood;
