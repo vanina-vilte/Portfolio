@@ -14,10 +14,6 @@ body {
     font-size: 16px;
 }
 
-img{
-    width: 100%;
-}
-
 /***************** EMPIEZA MI HEADER *****************/
 header{
     background-color: white;
@@ -75,13 +71,17 @@ li{
     align-content: center;
 }
 
-#caja1, #caja2{
+#caja1{
     width: 600px;
     margin: 50px 0px;
 }
 
 #caja1{
     text-align: left;
+}
+
+img{
+    width: 50%;
 }
 
 .hola{
