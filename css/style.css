@@ -15,7 +15,7 @@ body {
 }
 
 img{
-    width: 100%;
+    width: 90%;
 }
 
 /***************** EMPIEZA MI HEADER *****************/
@@ -68,7 +68,7 @@ li{
 /***************** EMPIEZA HOLA *****************/
 .presentacion1{
     width: 80%;
-    margin: 200px auto;
+    margin: 150px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,12 +106,12 @@ li{
 
 /***************** TERMINA HOLA *****************/
 /***************** EMPIEZA MIS CONOCIMIENTOS *****************/
-.loquese{
+#loquese{
     width: 100%;
     background-color: #E9F1D5;
 }
 
-#conocimientos{
+.conocimientos{
     width: 80%;
     margin: 0px auto;
     padding: 9em 0em;
