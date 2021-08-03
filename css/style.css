@@ -14,7 +14,10 @@ body {
     font-size: 16px;
 }
 
-
+img{
+    display: block;
+    width: 100%;
+}
 
 /***************** EMPIEZA MI HEADER *****************/
 header{
@@ -106,7 +109,7 @@ li{
 /***************** EMPIEZA MIS CONOCIMIENTOS *****************/
 #loquese{
     width: 100%;
-    background-color: #E9F1D5;
+    background-color: #F6F7FB;
 }
 
 .conocimientos{
@@ -147,6 +150,7 @@ li{
     justify-content: center;
     background-color: #FFFFFF;
     color: black;
+    border: solid 1px #d8d8d8;
     border-radius: 3%;
 }
 
@@ -171,15 +175,72 @@ li{
 /***************** EMPIEZA FRASE *****************/
 
 .frase{
-    background-color: burlywood;
+    background-color: #81B214;
 }
 
+.cita{
+    width: 80%;
+    max-width: 65%;
+    margin: 0px auto;
+    padding: 9em 0em;
+}
+
+.comillas{
+    width: 6%;
+    margin: 0 auto;
+}
+
+.estereotipos{
+    margin-top: 45px;
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(17, 17, 17);
+}
+
+.cris{
+    margin-top: 45px;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(17, 17, 17);
+}
 /***************** TERMINA FRASE *****************/
+/***************** EMPIEZA PROYECTOS *****************/
 
-.proyectos{
-    background-color: coral;
+#proyectos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    background-color: #FFFFFF;
 }
 
+.fotosproy{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    margin: 1% auto;
+    margin-bottom: 0%;
+}
+
+.proy{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 3%;
+    text-decoration: none;
+    border: solid 1px #616161;
+    border-radius: 3%;
+}
+
+/***************** EMPIEZA PROYECTOS *****************/
 .contactame{
     background-color: darkgray;
 }
