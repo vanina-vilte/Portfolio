@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: #616161;
+    color: black;
     font-size: 16px;
 }
 
@@ -46,7 +46,7 @@ li{
     text-transform: uppercase;
     text-decoration: none;
     padding: 25px;
-    color: #616161;
+    color: black;
 }
 
 .contacto{
@@ -62,11 +62,15 @@ li{
 
 .contacto:hover{
     background-color: #acd650;
-    color: #616161;
+    color: black;
 }
 
 /***************** TERMINA MI HEADER *****************/
 /***************** EMPIEZA HOLA *****************/
+#presentacion{
+    background-color: #FFFFFF;
+}
+
 .presentacion1{
     width: 80%;
     margin: 150px auto;
@@ -74,6 +78,7 @@ li{
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: #FFFFFF;
 }
 
 #caja1, #caja2{
@@ -87,9 +92,9 @@ li{
 
 .hola{
     font-size: 30px;
-    color: black;
     margin-bottom: 7px;
     font-weight: 800;
+    color: black;
 }
 
 .nombre{
@@ -103,13 +108,14 @@ li{
     font-size: 16px;
     margin-bottom: 40px;
     word-spacing: 3px;
+    color: black;
 }
 
 /***************** TERMINA HOLA *****************/
 /***************** EMPIEZA MIS CONOCIMIENTOS *****************/
 #loquese{
     width: 100%;
-    background-color: #F6F7FB;
+    background-color: #1B1B1B;
 }
 
 .conocimientos{
@@ -119,19 +125,22 @@ li{
 }
 
 .skills{
+    margin-top: 30px;
     font-size: 45px;
     font-weight: 900;
-    color: black;
+    text-align: center;
+    color: #81B214;
 }
 
 .skills2{
     width: 650px;
     max-width: 65%;
     margin: 35px auto;
+    color: white;
 }
 
 #tecnologias{
-    max-width: 55%;
+    max-width: 60%;
     margin: 4% auto;
     display: flex;
     justify-content: space-evenly;
@@ -140,23 +149,23 @@ li{
 }
 
 .tech{
-    width: 250px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     padding: 2%;
     margin-top: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF;
-    color: black;
-    border: solid 1px #d8d8d8;
+    background-color: #242424;
+    color: #FFFFFF;
+    border: solid 1px #2e2e2e;
     border-radius: 3%;
 }
 
 .tecno{
-    width: 75px;
-    height: 75px;
+    width: 73px;
+    height: 73px;
 }
 
 .tecsvg{
@@ -166,9 +175,8 @@ li{
 }
 
 .tech:hover{
-    border: solid 2px #F58634;
-    background-color: #FFFFFF;
-    color: #F58634;
+    border: solid 2px #acd650;
+    color: #81B214;
 }
 
 /***************** TERMINA MIS CONOCIMIENTOS *****************/
@@ -210,12 +218,19 @@ li{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 100px 0px;
+    margin: 85px 0px;
+    background-color: #FFFFFF;
+}
+
+.proyect1{
+    width: 100%;
+    margin: 0px auto;
+    padding: 6em 0em;
     background-color: #FFFFFF;
 }
 
 .fotosproy{
-    max-width: 45%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -236,14 +251,39 @@ li{
     padding: 2%;
     margin-top: 3%;
     text-decoration: none;
-    border: solid 1px #616161;
+    color: black;
+    border: solid 1px #dadada;
     border-radius: 3%;
 }
 
-/***************** EMPIEZA PROYECTOS *****************/
+#porta{
+    width: 100%;
+    padding: 25px 0px 0px 0px;
+}
+
+.port{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.skills3{
+    width: 650px;
+    max-width: 65%;
+    margin: 35px auto;
+    color: black;
+}
+
+.proy:hover{
+    border: solid 2px #acd650;
+    color: #658b11;
+}
+/***************** TERMINA PROYECTOS *****************/
+/***************** EMPIEZA CONTACTAME *****************/
 .contactame{
     background-color: darkgray;
 }
+
+/***************** TERMINA CONTACTAME *****************/
 
 footer{
     background-color: darksalmon;
