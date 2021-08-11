@@ -39,7 +39,7 @@ nav{
     padding-left: 500px;
 }
 
-li{
+.me{
     display: inline;
 }
 .naveg{
@@ -279,12 +279,182 @@ li{
 }
 /***************** TERMINA PROYECTOS *****************/
 /***************** EMPIEZA CONTACTAME *****************/
-.contactame{
-    background-color: darkgray;
+#contactame{
+    width: 100%;
+    background-color: #1B1B1B;
+}
+
+.contact{
+    width: 65%;
+    margin: 200px auto;
+    padding: 45px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #242424;
+    border-radius: 50px;
+}
+
+.conteiner-contac{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.skills4{
+    width: 700px;
+    max-width: 60%;
+    margin: 45px 0px;
+    color: white;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.lista-contacto{
+    font-size: 18px;
+    line-height: 50px;
+    list-style: none;
+}
+
+.link-icono{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.rs-icono{
+    margin: 0px 20px 0px 30px;
+    padding: 13px;
+    color: #81B214;
+}
+
+.link-icono:hover{
+    color: #81B214;
+}
+
+.link-icono:hover .rs-icono{
+    padding: 13px;
+    background-color: #81B214;
+    border-radius: 100px;
+    color: #242424;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+}
+
+.name-ape{
+    width: 100%;
+    display: flex;
+}
+
+.name{
+    width: 100%;
+}
+
+.apellido{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.column-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+.marg-bot{
+    margin-bottom: 45px;
+}
+
+#nombre, #apellido, #email{
+    height: 30px;
+}
+
+#nombre, #apellido, #email, #comentario{
+    width: 100%;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.boton{
+    padding: 9px 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: #81B214;
+    border-radius: 3rem;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.boton:hover{
+    background-color: #acd650;
+    color: #242424;
 }
 
 /***************** TERMINA CONTACTAME *****************/
+/***************** EMPIEZA FOOTER *****************/
 
 footer{
-    background-color: darksalmon;
+    background-color: #81B214;
 }
+
+.lista-footer{
+    width: 100%;
+    margin: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 400;
+}
+
+.li-hov{
+    text-decoration: none;
+    padding: 20px;
+    color: #1B1B1B;
+    font-weight: 400;
+}
+
+.li-hov:hover{
+    color: #1B1B1B;
+}
+
+.list-icon-foot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.icon-footer{
+    font-size: 25px;
+    margin: 0px 25px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #1B1B1B;
+    color: #81B214;
+}
+
+.amor{
+    font-size: 17px;
+    margin: 35px 0px;
+    color: #1B1B1B;
+}
+
+/***************** TERMINA FOOTER *****************/
